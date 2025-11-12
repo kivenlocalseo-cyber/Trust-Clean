@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="title" content="Is Green Cleaning Worth the Hype?">
+  <meta name="description" content="Discover if green cleaning is worth the hype and why it matters for homes and businesses in Vancouver BC.">
+  <meta name="keywords" content="green cleaning, eco-friendly cleaning, house cleaning service, carpet cleaning service, janitorial service, office cleaning, commercial cleaning">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="">
+  <title>Is Green Cleaning Worth the Hype?</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+    }
+    
+    body {
+      font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      padding: 20px;
+      color: #333;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header-section {
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .header-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+    }
+    
+    .brand-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .brand-logo {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.4s ease;
+      overflow: hidden;
+      background: white;
+      border: 3px solid #800080 ;
+    }
+    
+    .brand-logo:hover {
+      transform: scale(1.1) rotate(5deg);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    
+    .brand-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 5px;
+    }
+    
+    .brand-text {
+      text-align: left;
+    }
+    
+    .brand-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      letter-spacing: 1px;
+    }
+    
+    .brand-tagline {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-top: 8px;
+      color: #ff9d42;
+      font-weight: 500;
+    }
+    
+    .header-section h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      margin: 15px 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      font-weight: 700;
+      color: white;
+      line-height: 1.2;
+    }
+    
+    .intro-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .intro-text {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #0a2240;
+      position: relative;
+    }
+    
+    .intro-text::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      border-radius: 0 0 12px 12px;
+    }
+    
+    .intro-image {
+      flex: 1;
+      min-width: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #0a2240;
+      transition: all 0.4s ease;
+    }
+    
+    .intro-image:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .intro-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s ease;
+    }
+    
+    .intro-image img:hover {
+      transform: scale(1.05);
+    }
+    
+    .section {
+      background: white;
+      padding: 40px;
+      margin-bottom: 35px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      border-left: 5px solid #0a2240;
+      position: relative;
+    }
+    
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      border-radius: 12px 12px 0 0;
+    }
+    
+    .section:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+    
+    .section h2 {
+      color: #0a2240; 
+      margin-bottom: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.8rem;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+    }
+    
+    .section h2 i {
+      margin-right: 18px;
+      color: white;
+     background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(10, 34, 64, 0.3);
+    }
+    
+    .section p {
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      font-size: 1.08rem;
+    }
+    
+    .section ul {
+      margin-left: 25px;
+      margin-bottom: 20px;
+    }
+    
+    .section li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 10px;
+    }
+    
+    .section li::before {
+      content: '•';
+      color: #0a2240;
+      font-weight: bold;
+      position: absolute;
+      left: -15px;
+    }
+    
+    .conclusion-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .conclusion-container h2 {
+      color: #0a2240;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conclusion-text {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #0a2240;
+      position: relative;
+    }
+    
+    .conclusion-text::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      border-radius: 0 0 12px 12px;
+    }
+    
+    .conclusion-map {
+      flex: 1;
+      min-height: 350px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #0a2240;
+      transition: all 0.4s ease;
+    }
+    
+    .conclusion-map:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .conclusion-map iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 350px;
+      border: none;
+    }
+    
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 40px 30px;
+      margin-top: 50px;
+      color: #666;
+      font-size: 0.95rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #ff7a00;
+      position: relative;
+    }
+    
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      border-radius: 12px 12px 0 0;
+    }
+    
+    .footer a {
+      color: #0a2240;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    
+    .footer a:hover {
+      color: #1e4a76;
+      text-decoration: underline;
+    }
+    
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 25px 0;
+      flex-wrap: wrap;
+    }
+    
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 25px;
+      background: #0a2240;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.4s ease;
+      box-shadow: 0 5px 15px rgba(10, 34, 64, 0.3);
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .contact-btn:hover {
+      background: #1e4a76;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(10, 34, 64, 0.4);
+    }
+    
+    .contact-btn.phone {
+      background: #0a2240;
+      color: white;
+      box-shadow: 0 5px 15px rgba(10, 34, 64, 0.3);
+    }
+    
+    .contact-btn.email {
+      background: #800080 ;
+      color: white;
+      box-shadow: 0 5px 15px rgba(255, 122, 0, 0.3);
+    }
+    
+    .contact-btn.email:hover {
+      background: #800080 ;
+      box-shadow: 0 8px 20px rgba(255, 122, 0, 0.4);
+    }
+    
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 40px 0;
+      gap: 20px;
+    }
+    
+    .stat-item {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      flex: 1;
+      min-width: 200px;
+      transition: transform 0.3s ease;
+      border-top: 4px solid #800080;
+    }
+    
+    .stat-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #800080;
+      margin-bottom: 10px;
+    }
+    
+    .stat-label {
+      font-size: 1rem;
+      color: #555;
+    }
+    
+    .testimonial {
+     background: linear-gradient(to right, #8A4BC1, #C48AE1);
+      padding: 30px;
+      border-radius: 12px;
+      margin: 30px 0;
+      border-left: 5px solid #800080 ;
+      font-style: italic;
+      position: relative;
+    }
+    
+    .testimonial::before {
+      content: '"';
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      font-size: 4rem;
+      color: #0a2240;
+      opacity: 0.2;
+      font-family: Georgia, serif;
+    }
+    
+    .testimonial-author {
+      margin-top: 15px;
+      font-weight: 600;
+      color: #800080;
+      font-style: normal;
+    }
+    
+    .section a {
+      color: #800080 ;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    
+    .section a:hover {
+      color: #800080;
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .header-section h1 {
+        font-size: 2rem;
+      }
+      
+      .brand-name {
+        font-size: 2rem;
+      }
+      
+      .brand-logo {
+        width: 70px;
+        height: 70px;
+      }
+      
+      .intro-container, .conclusion-container {
+        flex-direction: column;
+      }
+      
+      .section h2 {
+        font-size: 1.6rem;
+      }
+      
+      .section h2 i {
+        width: 45px;
+        height: 45px;
+        font-size: 0.9em;
+      }
+      
+      .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contact-btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+      }
+      
+      .stats-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div class="container header-section">
+    <div class="brand-container">
+      <div class="brand-logo">
+        <img src="https://trustclean.ca/wp-content/uploads/2025/01/Rebranding-Beta-1-1024x828.png" alt="Cleaning Services Logo">
+      </div>
+      <div class="brand-text">
+        <h1 class="brand-name">Trust Clean</h1>
+        <div class="brand-tagline">Eco-Friendly Cleaning Solutions</div>
+      </div>
+    </div>
+    <h1>Is Green Cleaning Worth the Hype?</h1>
+    <p style="max-width: 800px; margin: 15px auto 0; font-size: 1.2rem; opacity: 0.9;">Understanding the Benefits of Eco-Friendly Cleaning Methods</p>
+  </div>
+
+  <!-- Introduction Section with Image -->
+  <div class="container intro-container">
+    <div class="intro-text">
+      <p>Over the last decade, the demand for eco-friendly cleaning methods has grown across homes and businesses. People now pay more attention to what products are used in their living and working spaces. The shift from harsh chemicals to plant-based formulas has changed how homeowners view professional cleaning services. Whether it's a family home or a busy workspace, many now prefer options that promote health and environmental care. For anyone seeking a reliable <a href="https://maps.app.goo.gl/13wpMNNtwBxciza26" style="color: #0a2240;"><strong>Trust Clean in Vancouver BC</strong></a>, this trend has become more than just a fad it's part of a cleaner, safer lifestyle.</p>
+    </div>
+    <div class="intro-image">
+      <img src="https://avatars.mds.yandex.net/i?id=76a1377304106ace1573b35023bedff659e060c2548ca7c8-9871210-images-thumbs&n=13" alt="Green Cleaning Products"/>
+    </div>
+  </div>
+
+  <!-- Statistics Section -->
+  <div class="container">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number">85%</div>
+        <div class="stat-label">Healthier Indoor Air</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">60%</div>
+        <div class="stat-label">Reduced Allergens</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Eco-Friendly</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Understanding the Rise of Green Cleaning Section -->
+  <div class="container section">
+    <h2><i class="fas fa-seedling"></i> Understanding the Rise of Green Cleaning</h2>
+    <p>Over the last decade, the demand for eco-friendly cleaning methods has grown across homes and businesses. People now pay more attention to what products are used in their living and working spaces. The shift from harsh chemicals to plant-based formulas has changed how homeowners view professional cleaning services. Whether it's a family home or a busy workspace, many now prefer options that promote health and environmental care. For anyone seeking a reliable house cleaning service in Vancouver BC, this trend has become more than just a fad it's part of a cleaner, safer lifestyle.</p>
+  </div>
+
+  <!-- What Does Green Cleaning Really Mean? Section -->
+  <div class="container section">
+    <h2><i class="fas fa-leaf"></i> What Does Green Cleaning Really Mean?</h2>
+    <p>Green cleaning isn't just about using products labeled as eco-friendly. It refers to an entire approach focused on safety, sustainability, and minimal environmental impact. True green cleaning avoids toxic ingredients, uses reusable tools, and limits water waste. This method ensures that both the cleaning staff and clients enjoy a safe environment free from harsh fumes or chemical residues. When your chosen house cleaning service practices green methods, it reflects care for your home and the planet.</p>
+  </div>
+
+  <!-- Why Vancouver Homeowners Are Switching to Eco-Friendly Options Section -->
+  <div class="container section">
+    <h2><i class="fas fa-home"></i> Why Vancouver Homeowners Are Switching to Eco-Friendly Options</h2>
+    <p>In Vancouver BC, many homeowners are surrounded by nature's beauty, so protecting the environment feels natural. Local residents have become more conscious about what enters their homes and the waterways. This awareness extends to cleaning practices. A professional house cleaning service in Vancouver BC that prioritizes green cleaning aligns perfectly with the city's eco-conscious culture. The goal is simple: keep homes spotless while minimizing harm to the environment.</p>
+  </div>
+
+  <!-- Comparing Traditional Cleaning and Green Cleaning Section -->
+  <div class="container section">
+    <h2><i class="fas fa-balance-scale"></i> Comparing Traditional Cleaning and Green Cleaning</h2>
+    <p>Traditional cleaning relies heavily on synthetic chemicals designed to remove grime quickly. While effective, these chemicals often leave behind residues that can irritate skin or trigger allergies. Green cleaning takes a gentler yet equally effective approach. Products made from natural ingredients clean thoroughly without leaving harmful traces. Whether you hire a carpet cleaning service or window cleaning service, eco-friendly options now match traditional methods in both strength and reliability.</p>
+  </div>
+
+  <!-- Health Benefits of Green Cleaning Products Section -->
+  <div class="container section">
+    <h2><i class="fas fa-heart"></i> Health Benefits of Green Cleaning Products</h2>
+    <p>One of the biggest advantages of green cleaning is the health benefit it brings. Families with children, elderly members, or pets experience fewer irritations when toxic chemicals are replaced with plant-based ones. Clean air, fresh scents, and reduced exposure to allergens can transform a home's atmosphere. The same applies to workplaces where a janitorial service uses eco-safe supplies. Healthy indoor air quality leads to improved focus and overall well-being for everyone inside.</p>
+  </div>
+
+  <!-- The Role of Professional Cleaners in Green Cleaning Section -->
+  <div class="container section">
+    <h2><i class="fas fa-user-tie"></i> The Role of Professional Cleaners in Green Cleaning</h2>
+    <p>Professional cleaners play a vital role in the success of eco-friendly cleaning practices. Their training and product knowledge ensure that each surface receives the right treatment without waste. Whether it's deep cleaning, standard cleaning, or move in/out cleaning, professionals know how to balance efficiency with care. Their skills help reduce product misuse, conserve water, and minimize unnecessary waste all while keeping your home or office sparkling clean.</p>
+  </div>
+
+  <!-- Green Cleaning for Homes and Businesses Section -->
+  <div class="container section">
+    <h2><i class="fas fa-building"></i> Green Cleaning for Homes and Businesses</h2>
+    <p>Green cleaning isn't limited to residential spaces. Many companies now choose eco-conscious commercial cleaning and office cleaning services to promote a healthy work environment. Employees benefit from cleaner air and reduced exposure to irritants, leading to improved productivity. In addition, eco-friendly cleaning practices help businesses meet sustainability goals and enhance their reputation among clients who value environmental responsibility.</p>
+  </div>
+
+  <!-- Specialty Green Cleaning Services Section -->
+  <div class="container section">
+    <h2><i class="fas fa-tools"></i> Specialty Green Cleaning Services</h2>
+    <p>Every cleaning situation is unique, and eco-friendly methods can be applied across a wide range of needs. From Airbnb cleaning to construction site cleaning and open house cleaning, green products can handle it all. For short-term rentals, eco-safe cleaning ensures guests enjoy a fresh and toxin-free stay. On construction sites, biodegradable solutions help manage dust and residue responsibly. During real estate showings, homes that smell clean without strong chemical odors make a lasting impression on buyers.</p>
+  </div>
+
+  <!-- The Cost Perspective: Is Green Cleaning More Expensive? Section -->
+  <div class="container section">
+    <h2><i class="fas fa-dollar-sign"></i> The Cost Perspective: Is Green Cleaning More Expensive?</h2>
+    <p>A common concern is that green cleaning costs more. In reality, the difference is often minimal, and the long-term benefits outweigh the small added cost. Many eco-friendly products last longer and require smaller quantities to achieve the same level of cleanliness. Over time, healthier indoor air and fewer allergic reactions lead to savings on healthcare and maintenance. Whether you choose a standard cleaning or deep cleaning package, eco-conscious cleaning can fit a wide range of budgets.</p>
+  </div>
+
+  <!-- Environmental Impact of Green Cleaning Practices Section -->
+  <div class="container section">
+    <h2><i class="fas fa-globe"></i> Environmental Impact of Green Cleaning Practices</h2>
+    <p>Eco-friendly cleaning contributes to a healthier planet. Traditional cleaning products can release volatile organic compounds that harm both air quality and water systems. Green cleaning products break down naturally, leaving no lasting damage. When a <a href="https://maps.app.goo.gl/example2" style="color: #0a2240;">house cleaning service in Vancouver BC</a> uses these sustainable methods, they reduce the city's overall carbon footprint. This local effort, multiplied by many homes and businesses, helps preserve natural beauty for future generations.</p>
+  </div>
+
+  <!-- Why Green Cleaning Is More Than Just a Trend Section -->
+  <div class="container section">
+    <h2><i class="fas fa-chart-line"></i> Why Green Cleaning Is More Than Just a Trend</h2>
+    <p>What started as a movement has now become a lifestyle. Green cleaning is not just a marketing buzzword it's a practical and responsible approach to maintaining clean spaces. Modern cleaning companies are proving that eco-friendly doesn't mean less effective. From move in/out cleaning to carpet cleaning service, every task can be handled efficiently using safer methods. As more homeowners and companies demand green cleaning, it's clear this approach is here to stay.</p>
+  </div>
+
+  <!-- Testimonial Section -->
+  <div class="container">
+    <div class="testimonial">
+      <p>"Switching to green cleaning services has made a noticeable difference in our home. The air feels fresher, and we no longer worry about chemical residues affecting our children or pets. It's reassuring to know we're making a healthier choice for our family and the environment."</p>
+      <div class="testimonial-author">- Sarah J., Homeowner</div>
+    </div>
+  </div>
+
+  <!-- Conclusion Section with Map -->
+  <div class="container conclusion-container">
+    <div class="conclusion-text">
+      <h2><i class="fas fa-check-circle"></i> Conclusion</h2>
+      <p>So, is green cleaning worth the hype? Absolutely. Beyond its environmental benefits, it supports healthier living and working conditions, promotes sustainability, and offers the same level of cleanliness as traditional methods. Whether you need <a href="http://www.trustclean.ca/" style="color: #0a2240;"><strong>Trust Clean in Vancouver BC</strong></a>, office cleaning, or specialized janitorial service, choosing a provider that values eco-friendly practices is an investment in your well-being and the planet. Green cleaning isn't just worth the hype it's shaping the future of how we care for our spaces, one eco-safe solution at a time.</p>
+    </div>
+    <div class="conclusion-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2172.347872639216!2d-123.10626769999999!3d49.281121899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485dbb45fa6ad91%3A0xc85e8f61ec3c5d26!2sTrust%20Clean!5e1!3m2!1sen!2s!4v1762983145936!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container footer">
+    <p>© 2025 Trust Clean. All rights reserved. | Eco-Friendly Cleaning Solutions</p>
+    
+    <div class="contact-buttons">
+      <a href="tel:+16045551234" class="contact-btn phone">
+        <i class="fas fa-phone"></i> (778) 907-9333
+      </a>
+      <a href="mailto:info@greencleanvancouver.com" class="contact-btn email">
+        <i class="fas fa-envelope"></i> support@trustclean.ca
+      </a>
+    </div>
+    
+    <p><strong>Trust Clean</strong><br>33 W Pender St, Vancouver, BC V6B 0E5, Canada</p>
+    <p>Ready for a healthier, cleaner space? Contact us today for a consultation!</p>
+  </div>
+
+</body>
+</html>
